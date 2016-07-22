@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C0ED17BB1D41C598001CC638 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = C0ED17BA1D41C598001CC638 /* Dog.m */; };
 		C0FFD1B91D34DC8300E2712E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FFD1B81D34DC8300E2712E /* main.m */; };
+		C0FFD1C11D34DD2400E2712E /* person.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FFD1C01D34DD2400E2712E /* person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +25,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C0ED17B91D41C598001CC638 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		C0ED17BA1D41C598001CC638 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 		C0FFD1B51D34DC8300E2712E /* runtime各种测试 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "runtime各种测试"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0FFD1B81D34DC8300E2712E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C0FFD1BF1D34DD2400E2712E /* person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = person.h; sourceTree = "<group>"; };
+		C0FFD1C01D34DD2400E2712E /* person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				C0FFD1B81D34DC8300E2712E /* main.m */,
+				C0FFD1BF1D34DD2400E2712E /* person.h */,
+				C0FFD1C01D34DD2400E2712E /* person.m */,
+				C0ED17B91D41C598001CC638 /* Dog.h */,
+				C0ED17BA1D41C598001CC638 /* Dog.m */,
 			);
 			path = "runtime各种测试";
 			sourceTree = "<group>";
@@ -118,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0ED17BB1D41C598001CC638 /* Dog.m in Sources */,
+				C0FFD1C11D34DD2400E2712E /* person.m in Sources */,
 				C0FFD1B91D34DC8300E2712E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +251,7 @@
 				C0FFD1BE1D34DC8300E2712E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
